@@ -102,9 +102,11 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
             scanf("%f",&n1); // armazenando o valor
 
             caso nossa operação c = (+,-,*,/) executara um calculo diferente.
-       switch (c) //Declarando nossos calculos de acordo com o carecter inserido pelo usuario.
-       {
-	   
+      
+      switch (c) //Declarando nossos calculos de acordo com o carecter inserido pelo usuario.
+
+
+
    case '+':
     resultado = (n0+n1);
     printf ("%f %c %f = %f \n\n",n0,c,n1,resultado);
@@ -124,15 +126,16 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
     resultado = (n0/n1);
     printf ("%f %c %f = %f \n\n",n0,c,n1,resultado);
     break;
+
     
+
 }
 
-	
+
+          n0 = resultado;
 }
-          n0 = resultado; //Declarando que nosso resultado será guardado na variavel n0.
 
-
-      goto inicio; //Mandando noss codigo devolta para o local declarado.
+      goto inicio;
 
 return 0;
 }

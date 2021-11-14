@@ -38,7 +38,8 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
      printf ("%c \n", c);
      
 	   ]
-	   //Area comentada ,Função ','
+	   //Area comentada ,Função ','.
+		   
      /************************************
      if(c == r){
      	

@@ -37,7 +37,7 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
    	 c = getch( );
      printf ("%c \n", c);
      
-	   ]
+	   
 	   //Area comentada ,Função ','.
 		   
      /************************************
@@ -82,9 +82,10 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
             scanf("%f",&n1);
 
             
-       switch (c) //Declarando nossos calculos de acordo com o carecter inserido pelo usuario.
-       {
-	   
+           switch (c){
+
+
+
    case '+':
     resultado = (n0+n1);
     printf ("%f %c %f = %f \n\n",n0,c,n1,resultado);
@@ -104,15 +105,16 @@ inicio: // Declarando o local onde o codigo ira retornar atraves da função 'go
     resultado = (n0/n1);
     printf ("%f %c %f = %f \n\n",n0,c,n1,resultado);
     break;
+
     
+
 }
 
-	
+
+          n0 = resultado;
 }
-          n0 = resultado; //Declarando que nosso resultado será guardado na variavel n0.
 
-
-      goto inicio; //Mandando noss codigo devolta para o local declarado.
+      goto inicio;
 
 return 0;
 }
